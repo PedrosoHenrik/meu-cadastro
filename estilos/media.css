@@ -1,0 +1,33 @@
+@charset "utf-8 ";
+
+@media screen and (min-width:500px )  {
+    body{
+        background: #000814 ;
+    }
+    form{
+        width: 500px;
+        height: 150px ;
+        background-color:#00081400  ;
+    }
+    fieldset{
+        
+        width: 100% ;
+        height: 98%;
+        border: 2px solid white;
+    }
+    input{
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+        width: 25%;
+    }
+    label{
+        display: inline;
+    }
+    input#botao{
+        display: block;
+        margin: auto;
+        margin: 20px;
+        width: 20%;
+    }
+}

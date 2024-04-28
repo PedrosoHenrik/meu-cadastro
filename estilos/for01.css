@@ -1,0 +1,68 @@
+@charset "utf-8 ";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+#000814
+#001d3d
+#003566
+*/ 
+
+
+body {
+   background-color: #003566 ; 
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+form{
+    width: 250px;
+    height: 400px;
+    background-color: #001d3d3c ;
+    color: white;
+    border-radius: 20px;
+    padding: 2px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+fieldset{
+    height: 99%;
+    border-radius: 20px;
+    border: 2px solid #000814 ;
+    margin: 2px;
+    background-image: url(../ima/pexels-koprivakart-19270190.jpg);
+    background-size: cover;
+}
+legend{
+    padding: 3px;
+    background-color: #000814;
+    color: white;
+    border-radius: 10px;
+}
+
+input{
+    padding: 8px;
+    margin: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+   
+}
+label{
+    padding: 4px;
+    margin: 6px;
+}
+input#botao{
+    padding: 8px ;
+    width: 30%;
+   
+    
+}
