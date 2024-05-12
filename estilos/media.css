@@ -10,19 +10,18 @@
         background-color:#00081400  ;
     }
     fieldset{
-        
         width: 100% ;
         height: 98%;
         border: 2px solid white;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
     input{
-        display: inline;
         margin: 10px;
         padding: 10px;
         width: 25%;
-    }
-    label{
-        display: inline;
     }
     input#botao{
         display: block;

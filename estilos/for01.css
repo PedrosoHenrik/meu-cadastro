@@ -40,6 +40,9 @@ fieldset{
     margin: 2px;
     background-image: url(../ima/pexels-koprivakart-19270190.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
 }
 legend{
     padding: 3px;
@@ -47,14 +50,12 @@ legend{
     color: white;
     border-radius: 10px;
 }
-
 input{
     padding: 8px;
     margin: 12px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-   
 }
 label{
     padding: 4px;
@@ -63,6 +64,5 @@ label{
 input#botao{
     padding: 8px ;
     width: 30%;
-   
     
 }
